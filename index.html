@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <div class="screen" id="welcome">
+        <div class="gr-contain">
+            <h1 id="greet-name"></h1>
+            <div class="button">
+                <button id="closeBTN">Click anywhere to start &#128578;</button>
+            </div>
+        </div>
+
+        <div class="img-container">
+            <div class="img-boxr box">
+                <img src="./assets/red-heart-symbol-love-affection_191095-78521.png" alt="Image">
+            </div>
+
+            <div class="img-boxl box">
+                <img src="./assets/red-heart-symbol-love-affection_191095-78521.png" alt="Image">
+            </div>
+        </div>
+    </div>
+
+    <div class="screen hidden" id="main">
+        <section class="first-page">
+            <div class="decorations">
+                <img src="./assets/heart.png" alt="image" class="img-one">
+                <img src="./assets/heart.png" alt="image" class="img-two">
+
+                <div class="header">
+                    <h1>Our Memories...</h1>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="pic-container">
+                    <button id="prev">⬅</button>
+                    <div class="pic-box">
+                        <div class="img-cards">
+                            <img src="./assets/pic/one.jpg">
+                            <img src="./assets/pic/2.jpg">
+                            <img src="./assets/pic/4.jpg">
+                            <img src="./assets/pic/3.jpg">
+                            <img src="./assets/pic/6.jpg">
+                            <img src="./assets/pic/5.jpg">
+                            <img src="./assets/pic/7.jpg">
+                        </div>
+                    </div>
+                    <button id="next">➡</button>
+
+                    <div class="rose">
+                        <img src="./assets/rose.png" alt="image" class="rose-img">
+                    </div>
+                </div>
+
+                <div id="endModal" class="modal hidden">
+                    <div class="modal-content">
+                        <h3 id="question">Will you be my wife?</h3>
+                        <div class="choices">
+                            <button id="yes">Yes</button>
+                            <button id="closeEndModal">No</button>
+                        </div>
+                    </div>
+
+                    <p id="sabog"></p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
